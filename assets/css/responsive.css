@@ -1,0 +1,112 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.mainmenu ul li a {
+		padding: 15px 10px;
+	}
+	#about {
+		padding-bottom: 30px;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#about {
+		padding-bottom: 30px;
+	}
+	.single-blog {
+		margin-bottom: 50px;
+	}
+	.mainmenu ul li a {
+		padding: 3px 0px;
+	}
+	.navbar-collapse {
+		border-top: 1px solid #eee;
+		margin-top: 20px;
+		text-align: center;
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.mainmenu ul li a {
+		padding: 3px 0px;
+	}
+	.welcome-content h2 {
+		margin: 18px 0;
+		font-size: 22px;
+	}
+	.welcome-content h4 {
+		font-size: 14px;
+	}
+	.welcome-content p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+	.about-text {
+		margin-top: 30px;
+	}
+	.about-text a {
+		margin-bottom: 30px;
+	}
+	.pb-50 {
+		padding-bottom: 20px;
+	}
+	.pt-50 {
+		padding-top: 20px;
+	}
+	.pt-100 {
+		padding-top: 40px;
+	}
+	.pb-100 {
+		padding-bottom: 40px;
+	}
+	.single-barfiller {
+		margin: 25px 0;
+	}
+	.section-title h4 {
+		font-size: 30px;
+	}
+	.mt-100 {
+		margin-top: 40px;
+	}
+	.mb-100 {
+		margin-bottom: 40px;
+	}
+	.hire-me h1 {
+		text-transform: capitalize;
+		font-size: 25px;
+		line-height: 1.4;
+	}
+	.single-counter span {
+		font-size: 25px;
+	}
+	.single-counter {
+		margin-bottom: 30px;
+	}
+	.single-counter h4 {
+		font-size: 20px;
+	}
+	.footer a i.fa {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.navbar-collapse {
+		border-top: 1px solid #eee;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.gmap iframe {
+	  height: auto;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
